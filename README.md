@@ -31,6 +31,8 @@ spring:
 mvn spring-boot:run
 ```
 
+Alternatively, if using an IDE (e.g., IntelliJ IDEA, Eclipse), navigate to the RegistryServerApplication class and run it directly.
+
 ### Run Docker
 
 #### Modify the file`bootstrap.yml`
@@ -55,6 +57,10 @@ Start the container with:
 ```yaml
 docker run --name registry-server --network my-network -p 8761:8761 registry-server:0.0.1-SNAPSHOT
 ```
+
+## Resources:
+- **Resource link  - https://github.com/evalladares-t/resource-bootcamp57**
+- **Link github  - https://github.com/evalladares-t**
 
 ## Notes:
 - **If you need to change ports or other settings, edit the corresponding application.yml and Dockerfile files.**
